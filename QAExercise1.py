@@ -6,6 +6,8 @@ file.writelines("TeamC ")
 file.writelines("TeamD ")
 file.writelines("TeamE")
 
+file.close()
+
 file = open("teams.txt", 'r')
 teams = file.read()
 teams = teams.split(' ')
