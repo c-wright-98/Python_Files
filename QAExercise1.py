@@ -1,3 +1,4 @@
+file = open('teams.txt', 'x')
 file = open('teams.txt', 'w')
 
 file.write("TeamA " )
