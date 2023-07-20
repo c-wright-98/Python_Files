@@ -1,11 +1,10 @@
-file = open('teams.txt', 'x')
 file = open('teams.txt', 'w')
 
-file.write("TeamA " )
-file.write("TeamB ")
-file.write("TeamC ")
-file.write("TeamD ")
-file.write("TeamE")
+file.writelines("TeamA " )
+file.writelines("TeamB ")
+file.writelines("TeamC ")
+file.writelines("TeamD ")
+file.writelines("TeamE")
 
 file = open("teams.txt", 'r')
 teams = file.read()
